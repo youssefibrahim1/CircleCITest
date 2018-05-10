@@ -8,5 +8,7 @@ let path = require('path');
 const { readdirSync, lstatSync } = require('fs')
 const { join } = require('path')
 
-console.log('works!')
-
+function sum(a,b){
+    return a+b;
+ }
+ module.exports=sum
