@@ -10,7 +10,7 @@
     "deploy": "node ./scripts/prodDeploy.js",
     "sync": "node ./scripts/syncSendGrid.js",
     "postinstall": "cd scripts && npm install",
-    "test": "cd scripts && npm test"
+    "test": "cd ./scripts && npm test"
   },
   "repository": {
     "type": "git",
