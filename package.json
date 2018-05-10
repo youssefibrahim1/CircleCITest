@@ -10,11 +10,11 @@
     "deploy": "node ./scripts/prodDeploy.js",
     "sync": "node ./scripts/syncSendGrid.js",
     "postinstall": "cd scripts && npm install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd scripts && npm test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sulaimandev/krakenCircleCI.git"
+    "url": "git+https://sulaimandev@github.com/sulaimandev/krakenCircleCI.git"
   },
   "author": "test",
   "license": "ISC",
