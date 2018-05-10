@@ -1,0 +1,28 @@
+{
+  "name": "kraken",
+  "version": "1.0.0",
+  "description": "new Kraken",
+  "main": "stageScript.js",
+  "scripts": {
+    "start":"node ./scripts/displayMessage.js",    
+    "stage": "node ./scripts/stageScript.js",
+    "build": "node ./scripts/prodBuild.js",
+    "deploy": "node ./scripts/prodDeploy.js",
+    "sync": "node ./scripts/syncSendGrid.js",
+    "postinstall": "cd scripts && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulaimandev/krakenCircleCI.git"
+  },
+  "author": "test",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sulaimandev/krakenCircleCI.git"
+  },
+  "homepage": "https://github.com/sulaimandev/krakenCircleCI.git",
+  "devDependencies": {
+    "dotenv": "^5.0.1"
+  }
+}
