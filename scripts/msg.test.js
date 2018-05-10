@@ -1,4 +1,5 @@
 
+'use strict';
 const sum =require('./displayMessage')
 
 test('Adds two numbers', sumTest)
